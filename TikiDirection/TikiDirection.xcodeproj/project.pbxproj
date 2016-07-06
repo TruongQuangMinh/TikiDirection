@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA26AA741D2CA1E900455826 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA26AA731D2CA1E900455826 /* main.m */; };
+		FA26AA8D1D2CA1E900455826 /* TikiDirectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA26AA8C1D2CA1E900455826 /* TikiDirectionTests.m */; };
+		FA26AAE31D2CA4F700455826 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA26AACA1D2CA4F700455826 /* AppDelegate.m */; };
+		FA26AAE41D2CA4F700455826 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA26AACA1D2CA4F700455826 /* AppDelegate.m */; };
+		FA26AAE91D2CA4F700455826 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA26AAD81D2CA4F700455826 /* Assets.xcassets */; };
+		FA26AAEA1D2CA4F700455826 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA26AAD81D2CA4F700455826 /* Assets.xcassets */; };
+		FA26AAEB1D2CA4F700455826 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA26AADA1D2CA4F700455826 /* LaunchScreen.storyboard */; };
+		FA26AAEC1D2CA4F700455826 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA26AADA1D2CA4F700455826 /* LaunchScreen.storyboard */; };
+		FA26AAED1D2CA4F700455826 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA26AADB1D2CA4F700455826 /* Main.storyboard */; };
+		FA26AAEE1D2CA4F700455826 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA26AADB1D2CA4F700455826 /* Main.storyboard */; };
+		FA26AAF01D2CA4F700455826 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA26AADD1D2CA4F700455826 /* Info.plist */; };
+		FA26AAF41D2CA57400455826 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA26AAF31D2CA57400455826 /* CoreLocation.framework */; };
+		FA26AAFF1D2CA67C00455826 /* ABCGoogleAutoCompleteResult.m in Sources */ = {isa = PBXBuildFile; fileRef = FA26AAF81D2CA67C00455826 /* ABCGoogleAutoCompleteResult.m */; };
+		FA26AB001D2CA67C00455826 /* ABCGoogleAutoCompleteResult.m in Sources */ = {isa = PBXBuildFile; fileRef = FA26AAF81D2CA67C00455826 /* ABCGoogleAutoCompleteResult.m */; };
+		FA26AB011D2CA67C00455826 /* ABCGooglePlace.m in Sources */ = {isa = PBXBuildFile; fileRef = FA26AAFA1D2CA67C00455826 /* ABCGooglePlace.m */; };
+		FA26AB021D2CA67C00455826 /* ABCGooglePlace.m in Sources */ = {isa = PBXBuildFile; fileRef = FA26AAFA1D2CA67C00455826 /* ABCGooglePlace.m */; };
+		FA26AB031D2CA67C00455826 /* ABCGooglePlacesAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = FA26AAFC1D2CA67C00455826 /* ABCGooglePlacesAPIClient.m */; };
+		FA26AB041D2CA67C00455826 /* ABCGooglePlacesAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = FA26AAFC1D2CA67C00455826 /* ABCGooglePlacesAPIClient.m */; };
+		FA26AB051D2CA67C00455826 /* ABCGooglePlacesSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA26AAFE1D2CA67C00455826 /* ABCGooglePlacesSearchViewController.m */; };
+		FA26AB061D2CA67C00455826 /* ABCGooglePlacesSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA26AAFE1D2CA67C00455826 /* ABCGooglePlacesSearchViewController.m */; };
+		FA26AB0D1D2CA70B00455826 /* MapViewAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = FA26AB0C1D2CA70B00455826 /* MapViewAnnotation.m */; };
+		FA26AB0E1D2CA70B00455826 /* MapViewAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = FA26AB0C1D2CA70B00455826 /* MapViewAnnotation.m */; };
+		FA26AB111D2CA7D200455826 /* CommonUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = FA26AB101D2CA7D200455826 /* CommonUtilities.m */; };
+		FA26AB121D2CA7D200455826 /* CommonUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = FA26AB101D2CA7D200455826 /* CommonUtilities.m */; };
+		FA26AB161D2CA86300455826 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = FA26AB151D2CA86300455826 /* Location.m */; };
+		FA26AB171D2CA86300455826 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = FA26AB151D2CA86300455826 /* Location.m */; };
+		FA26AB1B1D2CA8B600455826 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA26AB1A1D2CA8B600455826 /* MapViewController.m */; };
+		FA26AB1C1D2CA8B600455826 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA26AB1A1D2CA8B600455826 /* MapViewController.m */; };
+		FA26AB201D2CEE6E00455826 /* MapViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA26AB1F1D2CEE6E00455826 /* MapViewControllerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA26AA891D2CA1E900455826 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA26AA671D2CA1E900455826 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA26AA6E1D2CA1E900455826;
+			remoteInfo = TikiDirection;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA26AA6F1D2CA1E900455826 /* TikiDirection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TikiDirection.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA26AA731D2CA1E900455826 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA26AA881D2CA1E900455826 /* TikiDirectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TikiDirectionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA26AA8C1D2CA1E900455826 /* TikiDirectionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TikiDirectionTests.m; sourceTree = "<group>"; };
+		FA26AA8E1D2CA1E900455826 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA26AAC91D2CA4F700455826 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FA26AACA1D2CA4F700455826 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FA26AAD81D2CA4F700455826 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA26AADA1D2CA4F700455826 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA26AADB1D2CA4F700455826 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		FA26AADD1D2CA4F700455826 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA26AAF31D2CA57400455826 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		FA26AAF71D2CA67C00455826 /* ABCGoogleAutoCompleteResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABCGoogleAutoCompleteResult.h; sourceTree = "<group>"; };
+		FA26AAF81D2CA67C00455826 /* ABCGoogleAutoCompleteResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABCGoogleAutoCompleteResult.m; sourceTree = "<group>"; };
+		FA26AAF91D2CA67C00455826 /* ABCGooglePlace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABCGooglePlace.h; sourceTree = "<group>"; };
+		FA26AAFA1D2CA67C00455826 /* ABCGooglePlace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABCGooglePlace.m; sourceTree = "<group>"; };
+		FA26AAFB1D2CA67C00455826 /* ABCGooglePlacesAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABCGooglePlacesAPIClient.h; sourceTree = "<group>"; };
+		FA26AAFC1D2CA67C00455826 /* ABCGooglePlacesAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABCGooglePlacesAPIClient.m; sourceTree = "<group>"; };
+		FA26AAFD1D2CA67C00455826 /* ABCGooglePlacesSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABCGooglePlacesSearchViewController.h; sourceTree = "<group>"; };
+		FA26AAFE1D2CA67C00455826 /* ABCGooglePlacesSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABCGooglePlacesSearchViewController.m; sourceTree = "<group>"; };
+		FA26AB0B1D2CA70B00455826 /* MapViewAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewAnnotation.h; sourceTree = "<group>"; };
+		FA26AB0C1D2CA70B00455826 /* MapViewAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewAnnotation.m; sourceTree = "<group>"; };
+		FA26AB0F1D2CA7D200455826 /* CommonUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonUtilities.h; sourceTree = "<group>"; };
+		FA26AB101D2CA7D200455826 /* CommonUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonUtilities.m; sourceTree = "<group>"; };
+		FA26AB141D2CA86300455826 /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		FA26AB151D2CA86300455826 /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
+		FA26AB191D2CA8B600455826 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		FA26AB1A1D2CA8B600455826 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		FA26AB1E1D2CCB3000455826 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		FA26AB1F1D2CEE6E00455826 /* MapViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewControllerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA26AA6C1D2CA1E900455826 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA26AAF41D2CA57400455826 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA26AA851D2CA1E900455826 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA26AA661D2CA1E900455826 = {
+			isa = PBXGroup;
+			children = (
+				FA26AA711D2CA1E900455826 /* TikiDirection */,
+				FA26AA8B1D2CA1E900455826 /* TikiDirectionTests */,
+				FA26AA701D2CA1E900455826 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA26AA701D2CA1E900455826 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA26AA6F1D2CA1E900455826 /* TikiDirection.app */,
+				FA26AA881D2CA1E900455826 /* TikiDirectionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA26AA711D2CA1E900455826 /* TikiDirection */ = {
+			isa = PBXGroup;
+			children = (
+				FA26AAC81D2CA4F700455826 /* Application */,
+				FA26AACB1D2CA4F700455826 /* Helpers */,
+				FA26AAD11D2CA4F700455826 /* Libraries */,
+				FA26AAD21D2CA4F700455826 /* Models */,
+				FA26AAD51D2CA4F700455826 /* Resources */,
+				FA26AADE1D2CA4F700455826 /* ViewControllers */,
+				FA26AADF1D2CA4F700455826 /* Views */,
+				FA26AA721D2CA1E900455826 /* Supporting Files */,
+			);
+			path = TikiDirection;
+			sourceTree = "<group>";
+		};
+		FA26AA721D2CA1E900455826 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA26AA731D2CA1E900455826 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA26AA8B1D2CA1E900455826 /* TikiDirectionTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA26AA8C1D2CA1E900455826 /* TikiDirectionTests.m */,
+				FA26AB1F1D2CEE6E00455826 /* MapViewControllerTests.m */,
+				FA26AA8E1D2CA1E900455826 /* Info.plist */,
+			);
+			path = TikiDirectionTests;
+			sourceTree = "<group>";
+		};
+		FA26AAC81D2CA4F700455826 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				FA26AAC91D2CA4F700455826 /* AppDelegate.h */,
+				FA26AACA1D2CA4F700455826 /* AppDelegate.m */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		FA26AACB1D2CA4F700455826 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				FA26AB1D1D2CCB2400455826 /* Constants */,
+				FA26AACC1D2CA4F700455826 /* Categories */,
+				FA26AACF1D2CA4F700455826 /* NetworkServices */,
+				FA26AAD01D2CA4F700455826 /* SharedData */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		FA26AACC1D2CA4F700455826 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				FA26AB0F1D2CA7D200455826 /* CommonUtilities.h */,
+				FA26AB101D2CA7D200455826 /* CommonUtilities.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		FA26AACF1D2CA4F700455826 /* NetworkServices */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetworkServices;
+			sourceTree = "<group>";
+		};
+		FA26AAD01D2CA4F700455826 /* SharedData */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SharedData;
+			sourceTree = "<group>";
+		};
+		FA26AAD11D2CA4F700455826 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				FA26AAF51D2CA62900455826 /* Frameworks */,
+				FA26AAF61D2CA67C00455826 /* ABCGooglePlacesAutoComplete */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		FA26AAD21D2CA4F700455826 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FA26AB131D2CA86300455826 /* Location */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FA26AAD51D2CA4F700455826 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FA26AAD61D2CA4F700455826 /* Fonts */,
+				FA26AAD71D2CA4F700455826 /* Images */,
+				FA26AAD91D2CA4F700455826 /* Nibs */,
+				FA26AADC1D2CA4F700455826 /* Plists */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FA26AAD61D2CA4F700455826 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		FA26AAD71D2CA4F700455826 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				FA26AAD81D2CA4F700455826 /* Assets.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		FA26AAD91D2CA4F700455826 /* Nibs */ = {
+			isa = PBXGroup;
+			children = (
+				FA26AADA1D2CA4F700455826 /* LaunchScreen.storyboard */,
+				FA26AADB1D2CA4F700455826 /* Main.storyboard */,
+			);
+			path = Nibs;
+			sourceTree = "<group>";
+		};
+		FA26AADC1D2CA4F700455826 /* Plists */ = {
+			isa = PBXGroup;
+			children = (
+				FA26AADD1D2CA4F700455826 /* Info.plist */,
+			);
+			path = Plists;
+			sourceTree = "<group>";
+		};
+		FA26AADE1D2CA4F700455826 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FA26AB181D2CA89B00455826 /* MapViewController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		FA26AADF1D2CA4F700455826 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FA26AAE01D2CA4F700455826 /* MapViewAnnotation */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FA26AAE01D2CA4F700455826 /* MapViewAnnotation */ = {
+			isa = PBXGroup;
+			children = (
+				FA26AB0B1D2CA70B00455826 /* MapViewAnnotation.h */,
+				FA26AB0C1D2CA70B00455826 /* MapViewAnnotation.m */,
+			);
+			path = MapViewAnnotation;
+			sourceTree = "<group>";
+		};
+		FA26AAF51D2CA62900455826 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA26AAF31D2CA57400455826 /* CoreLocation.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA26AAF61D2CA67C00455826 /* ABCGooglePlacesAutoComplete */ = {
+			isa = PBXGroup;
+			children = (
+				FA26AAF71D2CA67C00455826 /* ABCGoogleAutoCompleteResult.h */,
+				FA26AAF81D2CA67C00455826 /* ABCGoogleAutoCompleteResult.m */,
+				FA26AAF91D2CA67C00455826 /* ABCGooglePlace.h */,
+				FA26AAFA1D2CA67C00455826 /* ABCGooglePlace.m */,
+				FA26AAFB1D2CA67C00455826 /* ABCGooglePlacesAPIClient.h */,
+				FA26AAFC1D2CA67C00455826 /* ABCGooglePlacesAPIClient.m */,
+				FA26AAFD1D2CA67C00455826 /* ABCGooglePlacesSearchViewController.h */,
+				FA26AAFE1D2CA67C00455826 /* ABCGooglePlacesSearchViewController.m */,
+			);
+			path = ABCGooglePlacesAutoComplete;
+			sourceTree = "<group>";
+		};
+		FA26AB131D2CA86300455826 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				FA26AB141D2CA86300455826 /* Location.h */,
+				FA26AB151D2CA86300455826 /* Location.m */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		FA26AB181D2CA89B00455826 /* MapViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FA26AB191D2CA8B600455826 /* MapViewController.h */,
+				FA26AB1A1D2CA8B600455826 /* MapViewController.m */,
+			);
+			path = MapViewController;
+			sourceTree = "<group>";
+		};
+		FA26AB1D1D2CCB2400455826 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				FA26AB1E1D2CCB3000455826 /* Constants.h */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA26AA6E1D2CA1E900455826 /* TikiDirection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA26AA911D2CA1E900455826 /* Build configuration list for PBXNativeTarget "TikiDirection" */;
+			buildPhases = (
+				FA26AA6B1D2CA1E900455826 /* Sources */,
+				FA26AA6C1D2CA1E900455826 /* Frameworks */,
+				FA26AA6D1D2CA1E900455826 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TikiDirection;
+			productName = TikiDirection;
+			productReference = FA26AA6F1D2CA1E900455826 /* TikiDirection.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA26AA871D2CA1E900455826 /* TikiDirectionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA26AA941D2CA1E900455826 /* Build configuration list for PBXNativeTarget "TikiDirectionTests" */;
+			buildPhases = (
+				FA26AA841D2CA1E900455826 /* Sources */,
+				FA26AA851D2CA1E900455826 /* Frameworks */,
+				FA26AA861D2CA1E900455826 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA26AA8A1D2CA1E900455826 /* PBXTargetDependency */,
+			);
+			name = TikiDirectionTests;
+			productName = TikiDirectionTests;
+			productReference = FA26AA881D2CA1E900455826 /* TikiDirectionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA26AA671D2CA1E900455826 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = LAP00195;
+				TargetAttributes = {
+					FA26AA6E1D2CA1E900455826 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					FA26AA871D2CA1E900455826 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FA26AA6E1D2CA1E900455826;
+					};
+				};
+			};
+			buildConfigurationList = FA26AA6A1D2CA1E900455826 /* Build configuration list for PBXProject "TikiDirection" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA26AA661D2CA1E900455826;
+			productRefGroup = FA26AA701D2CA1E900455826 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA26AA6E1D2CA1E900455826 /* TikiDirection */,
+				FA26AA871D2CA1E900455826 /* TikiDirectionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA26AA6D1D2CA1E900455826 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA26AAED1D2CA4F700455826 /* Main.storyboard in Resources */,
+				FA26AAE91D2CA4F700455826 /* Assets.xcassets in Resources */,
+				FA26AAEB1D2CA4F700455826 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA26AA861D2CA1E900455826 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA26AAF01D2CA4F700455826 /* Info.plist in Resources */,
+				FA26AAEE1D2CA4F700455826 /* Main.storyboard in Resources */,
+				FA26AAEA1D2CA4F700455826 /* Assets.xcassets in Resources */,
+				FA26AAEC1D2CA4F700455826 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA26AA6B1D2CA1E900455826 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA26AB031D2CA67C00455826 /* ABCGooglePlacesAPIClient.m in Sources */,
+				FA26AAE31D2CA4F700455826 /* AppDelegate.m in Sources */,
+				FA26AB051D2CA67C00455826 /* ABCGooglePlacesSearchViewController.m in Sources */,
+				FA26AB0D1D2CA70B00455826 /* MapViewAnnotation.m in Sources */,
+				FA26AB161D2CA86300455826 /* Location.m in Sources */,
+				FA26AB011D2CA67C00455826 /* ABCGooglePlace.m in Sources */,
+				FA26AAFF1D2CA67C00455826 /* ABCGoogleAutoCompleteResult.m in Sources */,
+				FA26AB1B1D2CA8B600455826 /* MapViewController.m in Sources */,
+				FA26AB111D2CA7D200455826 /* CommonUtilities.m in Sources */,
+				FA26AA741D2CA1E900455826 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA26AA841D2CA1E900455826 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA26AB041D2CA67C00455826 /* ABCGooglePlacesAPIClient.m in Sources */,
+				FA26AAE41D2CA4F700455826 /* AppDelegate.m in Sources */,
+				FA26AB201D2CEE6E00455826 /* MapViewControllerTests.m in Sources */,
+				FA26AB061D2CA67C00455826 /* ABCGooglePlacesSearchViewController.m in Sources */,
+				FA26AB0E1D2CA70B00455826 /* MapViewAnnotation.m in Sources */,
+				FA26AB171D2CA86300455826 /* Location.m in Sources */,
+				FA26AB021D2CA67C00455826 /* ABCGooglePlace.m in Sources */,
+				FA26AB001D2CA67C00455826 /* ABCGoogleAutoCompleteResult.m in Sources */,
+				FA26AB1C1D2CA8B600455826 /* MapViewController.m in Sources */,
+				FA26AB121D2CA7D200455826 /* CommonUtilities.m in Sources */,
+				FA26AA8D1D2CA1E900455826 /* TikiDirectionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA26AA8A1D2CA1E900455826 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA26AA6E1D2CA1E900455826 /* TikiDirection */;
+			targetProxy = FA26AA891D2CA1E900455826 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FA26AA8F1D2CA1E900455826 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA26AA901D2CA1E900455826 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA26AA921D2CA1E900455826 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "$(SRCROOT)/TikiDirection/Resources/Plists/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiki.TikiDirection;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FA26AA931D2CA1E900455826 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "$(SRCROOT)/TikiDirection/Resources/Plists/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiki.TikiDirection;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FA26AA951D2CA1E900455826 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TikiDirectionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiki.TikiDirectionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TikiDirection.app/TikiDirection";
+			};
+			name = Debug;
+		};
+		FA26AA961D2CA1E900455826 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TikiDirectionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiki.TikiDirectionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TikiDirection.app/TikiDirection";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA26AA6A1D2CA1E900455826 /* Build configuration list for PBXProject "TikiDirection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA26AA8F1D2CA1E900455826 /* Debug */,
+				FA26AA901D2CA1E900455826 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA26AA911D2CA1E900455826 /* Build configuration list for PBXNativeTarget "TikiDirection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA26AA921D2CA1E900455826 /* Debug */,
+				FA26AA931D2CA1E900455826 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA26AA941D2CA1E900455826 /* Build configuration list for PBXNativeTarget "TikiDirectionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA26AA951D2CA1E900455826 /* Debug */,
+				FA26AA961D2CA1E900455826 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA26AA671D2CA1E900455826 /* Project object */;
+}
